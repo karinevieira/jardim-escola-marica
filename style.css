@@ -20,6 +20,7 @@ header {
     background-color:#344973;
     padding: 20px;
     position: relative;
+    width: 100%;
 }
 
 ul {
@@ -58,8 +59,8 @@ ul {
 .intro {  
     margin: 5%;
     margin-left: 20%;
-    width: 370px;
-    height: 220px;
+    max-width: 370px;
+    max-height: 220px;
     float: left;
 }
 
@@ -164,6 +165,7 @@ ul {
         text-align: center;
         width: 170px;
         height: 220px;
+        /* float: none; */
     }
 
     .intro h3 {
