@@ -145,41 +145,27 @@ ul {
     color: var(--color-blue);
 }
 
-@media screen and (max-width: 320px){
-    header {
-        width: 100%;
-        margin: 0;
-    }
-
-    .logo{
-        visibility: hidden;
-    }
-
-    #menu{
-        font-size: 12px;
-    }
+/*Tablet*/
+@media (max-width: 768px){
 
     .intro {  
-        font-size: 10px;
-        margin-left: 75px;
-        text-align: center;
-        width: 170px;
-        height: 220px;
-        /* float: none; */
-    }
-
-    .intro h3 {
-        font-size: 12px;
+        margin: 5%;
+        margin-left: 26%;
+        max-width: 370px;
+        max-height: 220px;
+        float: left;
     }
 
     .imagem img{
-        width: 170px;
+        width: 45%;
         margin-top: 80px;
         margin-bottom: 20px;
-        margin-left: 80px;
+        margin-left: 210px;
     }
 
 }
+
+
 
 
 
