@@ -43,7 +43,7 @@ ul {
 
 }
 
-#menu a:hover{
+#menu a:hover {
     color: #F2E750;
 }
 
@@ -77,7 +77,7 @@ ul {
 }
 
 
-.imagem img{
+.imagem img {
     width: 370px;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -95,11 +95,11 @@ ul {
     float: left;
 }
 
-.turma-imagem img{
+.turma-imagem img {
     width: 100%;
 }
 
-.turma-info h3{
+.turma-info h3 {
     text-align: center;
 }
 
@@ -114,39 +114,39 @@ ul {
     float: left;
 }
 
-.professor-imagem img{
+.professor-imagem img {
     height: 300px;
 }
 
-.professor-info{
+.professor-info {
     text-align: center;
 }
 
-.contato{
+.contato {
     text-align: center;
     padding: 20px;
 }
 
-.contato h3{
+.contato h3 {
     margin-top: 20px;
     color: var(--color-blue);   
 }
 
-.contato li{
+.contato li {
     padding: 5px;
 }
 
-.endereco{
+.endereco {
     text-align: center;
     margin-top: 15px;
 }
 
-.endereco h3{
+.endereco h3 {
     color: var(--color-blue);
 }
 
 /*Tablet*/
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
     .intro {  
         margin: 5%;
@@ -156,7 +156,7 @@ ul {
         float: left;
     }
 
-    .imagem img{
+    .imagem img {
         width: 45%;
         margin-top: 80px;
         margin-bottom: 20px;
@@ -166,7 +166,7 @@ ul {
 
 /* Mobile L */
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
 
     .intro{  
         margin: 5%;
@@ -181,7 +181,7 @@ ul {
         font-size: 12px;
     }
     
-    .imagem img{
+    .imagem img {
         width: 210px;
         margin-top: 30px;
         margin-left: 100px;
@@ -189,8 +189,29 @@ ul {
 
 }
 
+/* Mobile M */
 
+@media (max-width: 375px){
 
+    .imagem img {
+        width: 170px;
+        margin-left: 110px;
+    }
+}
+
+/* Mobile S */
+
+@media (max-width: 320px){
+
+    .intro {
+        margin-left: 9%;
+    }
+
+    .imagem img {
+        width: 150px;
+        margin-left: 90px;
+    }
+}
 
 
 
