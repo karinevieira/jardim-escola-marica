@@ -150,6 +150,10 @@ ul {
     .intro{
         margin-left: 10%;
     }
+
+    .turmas{
+        margin-left: 90px;
+    }
 }
 
 /*Tablet*/
@@ -168,6 +172,10 @@ ul {
         margin-top: 80px;
         margin-bottom: 20px;
         margin-left: 210px;
+    }
+
+    .turmas{
+        margin-left: 200px;
     }
 }
 
@@ -194,21 +202,42 @@ ul {
         margin-left: 100px;
     }
 
+    .turmas{
+        margin-left: 120px;
+        width: 200px;
+    }
+
+    .turma-info h3, p{
+        font-size: 12px;
+    }
+
 }
 
 /* Mobile M */
 
 @media (max-width: 375px){
 
+    #menu {
+        font-size: 14px;
+    }
+
     .imagem img {
         width: 170px;
         margin-left: 110px;
+    }
+
+    .turmas{
+        margin-left: 100px;
     }
 }
 
 /* Mobile S */
 
 @media (max-width: 320px){
+
+    #menu {
+        font-size: 12px;
+    }
 
     .intro {
         margin-left: 9%;
@@ -217,6 +246,10 @@ ul {
     .imagem img {
         width: 150px;
         margin-left: 90px;
+    }
+
+    .turmas{
+        margin-left: 70px;
     }
 }
 
