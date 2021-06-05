@@ -145,6 +145,13 @@ ul {
     color: var(--color-blue);
 }
 
+/*Laptop L*/
+@media (max-width: 1024px){
+    .intro{
+        margin-left: 10%;
+    }
+}
+
 /*Tablet*/
 @media (max-width: 768px) {
 
