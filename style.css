@@ -56,32 +56,38 @@ ul {
     width: 50%;
 }
 
-.intro {  
-    margin: 5%;
-    margin-left: 20%;
-    max-width: 370px;
-    /* max-height: 220px; */
-    float: left;
+#historia {
+    text-align: justify;
+    max-width: 50%;
+    margin: auto
 }
 
-
-.intro h3 {
+#historia h3 {
     text-align: center;
     color: var(--color-blue);
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 
-.intro p {
+#historia p {
     text-align: justify;
+    margin-bottom: 5px;
 }
 
+#metodologia {
+    max-width: 50%;
+    margin: auto;
+}
 
-.imagem img {
-    width: 370px;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    margin-left: 7px;
+#metodologia h3{
+    color: var(--color-blue);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#metodologia p{
+    text-align: justify;
 }
 
 .turmas {
