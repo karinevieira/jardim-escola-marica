@@ -60,49 +60,39 @@ nav a {
     color: #F2E750;
 }
 
-#matricula {
-    text-align: center;
+
+.banner_matricula {
+    display: flex;
+    justify-content: center;
 }
 
-#matricula img {
-    margin-top: 10px;
+.banner_matricula img {
+    margin-top: 30px;
     width: 50%;
 }
 
-#historia {
-    text-align: justify;
-    max-width: 50%;
-    margin: auto
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#historia h3 {
-    text-align: center;
+.info{
+    margin-top: 30px;
+    width: 500px;
+    text-align: justify;
+}
+
+.info h3 {
     color: var(--color-blue);
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-#historia p {
-    text-align: justify;
-    margin-bottom: 5px;
-}
-
-#metodologia {
-    max-width: 50%;
-    margin: auto;
-}
-
-#metodologia h3{
-    color: var(--color-blue);
-    margin-top: 20px;
-    margin-bottom: 5px;
     text-align: center;
+    margin-bottom: 12px;
 }
 
-#metodologia p{
-    text-align: justify;
+.mb {
+    margin-bottom: 30px;
 }
-
 .turmas {
     background-color: var(--color-blue);
     color: white;
