@@ -113,14 +113,21 @@ nav a {
 }
 
 .professores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.professor-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-blue);
-    color: white;
     width: 200px;
     padding: 10px;
-    margin-left: 95px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    float: left;
+    margin: 30px;
 }
 
 .professor-imagem img {
@@ -128,7 +135,7 @@ nav a {
 }
 
 .professor-info {
-    text-align: center;
+    color: white;
 }
 
 .contato {
