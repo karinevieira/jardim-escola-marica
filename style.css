@@ -82,6 +82,7 @@ nav a {
     margin-top: 30px;
     width: 500px;
     text-align: justify;
+    text-indent: 1.5em
 }
 
 .info h3 {
@@ -90,36 +91,22 @@ nav a {
     margin-bottom: 12px;
 }
 
+.info-img img {
+    width: 300px;
+}
+
 .mb {
     margin-bottom: 30px;
 }
-.turmas {
-    background-color: var(--color-blue);
-    color: white;
-    width: 350px;
-    padding: 10px;
-    margin-left: 55px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    float: left;
-}
 
-.turma-imagem img {
-    width: 100%;
-}
-
-.turma-info h3 {
-    text-align: center;
-}
-
-.professores {
+.professores, .turmas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
 }
 
-.professor-container{
+.professor-container, .turma-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,14 +117,31 @@ nav a {
     margin: 30px;
 }
 
+.turma-container{
+    width: 300px;
+    background-color: white;
+    border: 5px solid #344973;
+}
+
 .professor-imagem img {
     height: 300px;
+}
+
+.turma-imagem img{
+    width: 200px;
 }
 
 .professor-info {
     color: white;
 }
 
+.turma-info{
+    text-align: center;
+}
+
+.turma-info h3 {
+    color: var(--color-blue);
+}
 .contato {
     text-align: center;
     padding: 20px;
