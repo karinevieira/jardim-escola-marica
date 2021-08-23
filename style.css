@@ -119,7 +119,7 @@ nav a {
 
 .turma-container{
     width: 300px;
-    background-color: white;
+    background-color: var(--color-blue);
     border: 5px solid #344973;
 }
 
@@ -128,7 +128,8 @@ nav a {
 }
 
 .turma-imagem img{
-    width: 200px;
+    width: 250px;
+    background-color: white;
 }
 
 .professor-info {
@@ -137,10 +138,11 @@ nav a {
 
 .turma-info{
     text-align: center;
+    color: white;
 }
 
 .turma-info h3 {
-    color: var(--color-blue);
+    color: white;
 }
 .contato {
     text-align: center;
