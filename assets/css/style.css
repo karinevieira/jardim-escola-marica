@@ -155,6 +155,7 @@ nav a {
 }
 
 .contato li {
+    list-style: none;
     padding: 5px;
 }
 
@@ -167,113 +168,70 @@ nav a {
     color: var(--color-blue);
 }
 
-/*Laptop L*/
-@media (max-width: 1024px){
-    .intro{
-        margin-left: 10%;
-    }
+.menu_mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
 
-    .turmas{
-        margin-left: 90px;
+.mm_line{
+    height: 3px;
+    background-color: var(--color-salmon);
+}
+
+@media (max-width: 500px){
+    .info{
+        width: 350px;
     }
 }
 
-/*Tablet*/
-@media (max-width: 768px) {
-
-    .intro {  
-        margin: 5%;
-        margin-left: 26%;
-        max-width: 370px;
-        max-height: 220px;
-        float: left;
+@media (max-width: 440px){
+    header .container {
+        flex-direction: row;
     }
 
-    .imagem img {
-        width: 45%;
-        margin-top: 80px;
-        margin-bottom: 20px;
-        margin-left: 210px;
+    nav ul {
+        display: none;
+        text-align: center;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-salmon);
     }
 
-    .turmas{
-        margin-left: 170px;
-    }
-}
-
-/* Mobile L */
-
-@media (max-width: 425px) {
-
-    .intro{  
-        margin: 5%;
-        margin-left: 5%;
-    }
-    
-    .intro h3 {
-        font-size: 14px;
-    }
-    
-    .intro p {
-        font-size: 12px;
-    }
-    
-    .imagem img {
-        width: 210px;
-        margin-top: 30px;
-        margin-left: 100px;
+    header{
+        height: auto;
     }
 
-    .turmas{
-        margin-left: 100px;
-        width: 200px;
+    .logo{
+        padding-left: 20px;
     }
 
-    .turma-info h3, p{
-        font-size: 12px;
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
-}
-
-/* Mobile M */
-
-@media (max-width: 375px){
-
-    #menu {
-        font-size: 14px;
-    }
-
-    .imagem img {
-        width: 170px;
-        margin-left: 110px;
-    }
-
-    .turmas{
-        margin-left: 70px;
+    .info-img img{
+        width: 220px;
     }
 }
 
-/* Mobile S */
-
-@media (max-width: 320px){
-
-    #menu {
-        font-size: 12px;
+@media (max-width:380px){
+    .info{
+        width: 250px;
     }
 
-    .intro {
-        margin-left: 9%;
-    }
-
-    .imagem img {
-        width: 150px;
-        margin-left: 90px;
-    }
-
-    .turmas{
-        margin-left: 50px;
+    .info-img img {
+        width: 190px;
     }
 }
+
 
 
 
