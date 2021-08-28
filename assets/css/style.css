@@ -57,7 +57,7 @@ nav a {
 }
 
 .menu a:hover {
-    color: #F2E750;
+    color: #E7AD99;
 }
 
 
@@ -112,7 +112,7 @@ nav a {
     justify-content: center;
     align-items: center;
     background-color: var(--color-blue);
-    width: 200px;
+    width: 230px;
     padding: 10px;
     margin: 30px;
 }
@@ -134,6 +134,8 @@ nav a {
 
 .professor-info {
     color: white;
+    text-align: center;
+    font-size: 14px;
 }
 
 .turma-info{
@@ -168,6 +170,12 @@ nav a {
     color: var(--color-blue);
 }
 
+.redes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 .menu_mobile{
     display: none;
     width: 40px;
@@ -179,7 +187,7 @@ nav a {
 
 .mm_line{
     height: 3px;
-    background-color: var(--color-salmon);
+    background-color: #E7AD99;
 }
 
 @media (max-width: 500px){
@@ -200,7 +208,7 @@ nav a {
         position: absolute;
         left: 0;
         width: 100%;
-        background-color: var(--color-salmon);
+        background-color: #E7AD99;
     }
 
     header{
